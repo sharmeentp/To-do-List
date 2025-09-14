@@ -1,0 +1,25 @@
+
+body {
+  background-color: #f8f9fa;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+}
+.completed { 
+  text-decoration: line-through;
+  opacity: 0.6;
+}
+.task-text {
+  word-break: break-word;
+  min-width: 0;
+}
+.list-group-item {
+  display: flex;
+  align-items: center;
+  gap: .75rem;
+  flex-wrap: wrap;
+}
+.task-actions {
+  margin-left: auto;
+}
+@media (max-width: 576px) {
+  .task-actions { width: 100%; display:flex; gap:.5rem; justify-content:flex-end; margin-top:.5rem; }
+}
