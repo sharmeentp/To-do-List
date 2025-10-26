@@ -30,7 +30,7 @@ Technologies Used:
 
 Live Demo:
 [🔗 View Project](#)  
-*(Add your Netlify or GitHub Pages link here once deployed)*
+( https://sharmeentp.github.io/To-do-List/)
 
  What I Learned:
 - DOM manipulation with JavaScript. 
